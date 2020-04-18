@@ -192,28 +192,3 @@ PRIMARY KEY(user_id),
 FOREIGN KEY(user_id) REFERENCES Customers(user_id) ON DELETE CASCADE,
 FOREIGN KEY(user_id2) REFERENCES Customers(user_id) ON DELETE CASCADE
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
