@@ -10,14 +10,15 @@ Based on the user's input, it will show different information about the trip, su
 
  2. The program takes several lines of input to show the correct output:
     - 	An integer whose value is at least 2, alone on a line, that specifies how many locations the trip will consist of.
-    -	  If there are n locations, the next n lines of input will each describe one location. Each location can be a city such as Irvine,   CA, an address such as 4545 Campus Dr, Irvine, CA, or anything that the Open MapQuest API will accept as a location.   
-    -	  A positive integer (i.e., whose value is at least 1), alone on a line, that specifies how many outputs will need to be generated.
-    -	  If there are m outputs, the next m lines of input will each describe one output. Each output can be one of the following:
-   	    - STEPS for step-by-step directions, meaning a brief description of each maneuver (e.g., a turn, entering or exiting a freeway, etc.) you would have to make to drive from one location to another.
-   	    - TOTALDISTANCE for the total distance traveled if completing the entire trip.
-   	    - TOTALTIME for the total estimated time to complete the entire trip.
-   	    - LATLONG for the latitude and longitude of each of the locations specified in the input.
-   	    - ELEVATION for the elevation, in feet, of each of the locations specified in the input.
+    -	 If there are n locations, the next n lines of input will each describe one location. Each location can be a city such as Irvine,
+    CA, an address such as 4545 Campus Dr, Irvine, CA, or anything that the Open MapQuest API will accept as a location.   
+    -	 A positive integer (i.e., whose value is at least 1), alone on a line, that specifies how many outputs will need to be                   generated.
+    -	 If there are m outputs, the next m lines of input will each describe one output. Each output can be one of the following:
+   	      -  **STEPS** for step-by-step directions, meaning a brief description of each maneuver (e.g., a turn, entering or exiting a freeway, etc.) you would have to make to drive from one location to another.
+   	      -  **TOTALDISTANCE** for the total distance traveled if completing the entire trip.
+   	      -  **TOTALTIME** for the total estimated time to complete the entire trip.
+   	      -  **LATLONG** for the latitude and longitude of each of the locations specified in the input.
+   	      -  **ELEVATION** for the elevation, in feet, of each of the locations specified in the input.
 
 
 ##  Successful examples:
